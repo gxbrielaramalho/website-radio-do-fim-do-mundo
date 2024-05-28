@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+:root {
+--cor0:#E67919;
+--cor1:#E6B219;
+--cor2:#E69919;
+--cor3:#E65519;
+--cor4:#E6B666;
+--cor5:black;
+
+--fonte-padrão: 'Courier New', Courier, monospace;
+}
+
+* {
+font-family: 'Courier New', Courier, monospace;
+}
+
+body
+{ 
+background-color: black;
+}
+
+header {
+font-family: var(--fonte-padrão);
+background-color:#E65519;
+padding: 5px 5px 5px 5px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+min-width: 280px;
+max-width: 800px;
+margin: auto;
+text-align: center;
+}
+
+header h1{
+background-color:#E67919;
+padding: 5px 5px 5px 5px;
+border-radius: 5px;
+min-width: 280px;
+max-width: 800px;
+margin: auto;
+text-align: center;
+text-shadow:1px 1px #ffffff;
+}
+
+header > p {
+background-color:#E65519;
+padding: 5px 5px 5px 5px;
+border-radius: 5px;
+min-width: 280px;
+max-width: 800px;
+margin: auto;
+text-align: center;
+font-weight: bold;
+text-shadow:1px 1px #000000;
+}
+
+#slogan {
+color:aliceblue;
+font-weight: lighter;
+font-size: 20px;
+}
+
+nav {
+background-color:#000000;
+padding: 5px 5px 5px 5px;
+border-radius: 5px;
+min-width: 280px;
+max-width: 800px;
+margin: auto;
+text-align: center;
+font-size: 20px;
+}
+
+a {
+    color:rgb(255, 255, 255);
+}
+
+main {
+background-color:#E65519;
+padding: 5px 5px 5px 5px;
+border-radius: 5px;
+min-width: 280px;
+max-width: 800px;
+margin: auto;
+}
+
+article {
+background-color:black;
+padding: 5px 5px 5px 5px;
+border-radius: 5px;
+min-width: 280px;
+max-width: 800px;
+margin: auto;
+}
+
+article p {
+color:aliceblue;
+text-align: justify;
+padding: 10px 10px;
+border-radius: 5px;
+min-width: 280px;
+max-width: 800px;
+margin: auto;
+    
+}    
+
+footer {
+background-color:#E67919;
+padding: 5px 5px 5px 5px;
+border-radius: 5px;
+min-width: 280px;
+max-width: 800px;
+margin: auto;
+font-weight: bold;
+font-size: 20px;
+}
+
+
+h2{
+color: white
+}
+
+img {
+max-width: 100%;
+}
+
+button {
+font-size: 20px;
+padding: 15px;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+font-weight: bold;
+transition-duration: 0.5s;
+}
+
+button:hover {
+background-color: #E65519;
+color:#ffffff
+}
